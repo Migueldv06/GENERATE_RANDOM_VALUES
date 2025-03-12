@@ -46,3 +46,10 @@ codigo do exemplo do mysql corvertido para o sql server
 >[!IMPORTANT]
 >a  | b  
 >10 | Heikki
+
+
+# configurações de sistema
+Maquina: Windev2304Eval
+Java 11
+Apache Hop 2.9
+SQL Server 2019
