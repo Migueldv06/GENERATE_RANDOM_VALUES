@@ -30,6 +30,7 @@ codigo do exemplo do mysql corvertido para o sql server
 >
 >SET IMPLICIT_TRANSACTIONS OFF;
 
+
 ### Resultado
 >[!IMPORTANT]
 > a | b
