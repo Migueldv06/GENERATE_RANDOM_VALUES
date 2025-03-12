@@ -1,6 +1,18 @@
 # apachehop_sql_server_autocommit_off 
 Estudo de como desativar o autocommit do Apache Hop conectado no Sql Server
 
+# Problema
+Os transforms Table output ou insert / update não respeitam o commit size ao se conectarem ao SQL Server
+
+## arquivos Apache Hop
+Os arquivos .hpl são pipelines para o apache hop
+
+### generate_ramdom_values.hpl
+este arquivo cria a quantidade de linhas selecionadas no Generate rows incrementa com os dados aleatorios e exporta para o arquivo randoms.csv
+
+### insert_update.hpl
+este arquivo faz um truncate na tabela informada no Execute SQL Script e copia os dados genados no arquivo após isso ele faz um insert / update
+
 ## autocommit off mysql
 exemplo de autocommit off no mysql
 https://dev.mysql.com/doc/refman/8.4/en/innodb-autocommit-commit-rollback.html
@@ -33,4 +45,4 @@ codigo do exemplo do mysql corvertido para o sql server
 ### Resultado
 >[!IMPORTANT]
 >a  | b  
->10 | Heikki      
+>10 | Heikki
