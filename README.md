@@ -32,5 +32,5 @@ codigo do exemplo do mysql corvertido para o sql server
 
 ### Resultado
 >[!IMPORTANT]
-> a | b  
+>a  | b  
 >10 | Heikki      
