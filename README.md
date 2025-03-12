@@ -14,7 +14,7 @@ codigo do exemplo do mysql corvertido para o sql server
 >
 >SET IMPLICIT_TRANSACTIONS OFF; 
 >
->BEGIN TRANSACTION; 
+>BEGIN TRANSACTION;     
 >INSERT INTO customer VALUES (10, 'Heikki');    
 >COMMIT;    
 >
