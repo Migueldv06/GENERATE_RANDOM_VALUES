@@ -8,7 +8,7 @@ https://dev.mysql.com/doc/refman/8.4/en/innodb-autocommit-commit-rollback.html
 ## autocommit off sql server 
 codigo do exemplo do mysql corvertido para o sql server 
 
-> ["TIP"]
+> [!TIP]
 >CREATE TABLE customer (a INT, b CHAR(20));
 >CREATE INDEX idx_a ON customer(a);
 >
