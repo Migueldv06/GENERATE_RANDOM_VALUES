@@ -29,3 +29,8 @@ codigo do exemplo do mysql corvertido para o sql server
 >SELECT * FROM customer;
 >
 >SET IMPLICIT_TRANSACTIONS OFF;
+
+### Resultado
+>[!IMPORTANT]
+> a | b
+>10 | Heikki
