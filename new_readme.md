@@ -4,8 +4,9 @@ Estudo de como desativar o autocommit do Apache Hop conectado no Sql Server
 # select com filtro de uncommitted no sql server
 para realizar um select filtrando linha ainda não commitadas execute com o script abaixo
 
+> [!IMPORTANT]
+> Exemplo para SQL Server Management Studio(SSMS)
 > [!TIP]
->Exemplo no SQL Server Management Studio(SSMS)
 >ALTER DATABASE MyDatabase  
 >SET ALLOW_SNAPSHOT_ISOLATION ON  
 >  
