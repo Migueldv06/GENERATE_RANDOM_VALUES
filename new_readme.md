@@ -19,7 +19,7 @@ para realizar um select filtrando linha ainda não commitadas execute com o scri
 >SELECT COUNT(*) FROM MyDatabase;
 
 # configurações de sistema
-Maquina: Windev2304Eval
-Java 11
-Apache Hop 2.9
-SQL Server 2019
+Maquina: Windev2304Eval\
+Java 11\
+Apache Hop 2.9\
+SQL Server 2019\
