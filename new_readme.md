@@ -6,6 +6,7 @@ para realizar um select filtrando linha ainda não commitadas execute com o scri
 
 > [!IMPORTANT]
 > Exemplo para SQL Server Management Studio(SSMS)
+
 > [!TIP]
 >ALTER DATABASE MyDatabase  
 >SET ALLOW_SNAPSHOT_ISOLATION ON  
